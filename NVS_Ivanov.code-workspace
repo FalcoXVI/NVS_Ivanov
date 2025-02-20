@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../sj24-25-2daif-nvs1"
 		}
 	],
 	"settings": {}
