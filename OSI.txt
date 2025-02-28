@@ -1,0 +1,27 @@
+osi
+
+1) physical
+
+	Kabel Strom 
+	Funk Em
+	Licht LWL
+
+2) Data Link Switch NICHT Routing		Brodcast
+	ARP adress resolution Protokoll		Brodcast
+	Ethernet Frames				Brodcast
+
+	8 bit = 1 byte = 1 Oktet
+
+
+3) Network Leyer
+
+	-ipv4
+	-ipv6
+	-ospf
+	-BGP
+
+129.189.51.0 -> 255.255.255.192	/26
+129.189.51.64 -> 255.255.255.192 /26
+129.189.51.128 -> 255.255.255.192 /26
+129.189.51.192 -> 255.255.255.192 /26
+
