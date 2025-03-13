@@ -22,24 +22,24 @@ Netzwerkadresse,               nutzbare Hosts,                    Broadcastadres
 Teile das Netz 193.170.20.0 /24 in 8 gleich große Netze! Erstelle eine Tabelle mit folgenden Angaben:
 Netzwerkadresse,              nutzbare Hosts,                    Broadcastadresse,              Subnetzmaske.
 
-193.170.20.0	                1-190	                            191	                        255.255.255.224
-193.170.20.192	                192 - 253	                        254	                        255.255.255.224
-193.170.21.0			        1-190                               191	                        255.255.255.224                        
-193.170.21.192			        192 - 253                           254	                        255.255.255.224
-193.170.22.0			        1-190                               191	                        255.255.255.224
-193.170.22.192			        192 - 253                           254	                        255.255.255.224
-193.170.23.0			        1-190                               191	                        255.255.255.224
-193.170.23.192			        192 - 253                           254	                        255.255.255.224
+193.170.20.0	                1-126	                            127	                        255.255.255.224
+193.170.20.128	                128 - 253	                        254	                        255.255.255.224
+193.170.21.0			        1-126                               127	                        255.255.255.224                        
+193.170.21.128			        128 - 253                           254	                        255.255.255.224
+193.170.22.0			        1-126                               127	                        255.255.255.224
+193.170.22.128			        128 - 253                           254	                        255.255.255.224
+193.170.23.0			        1-126                               127	                        255.255.255.224
+193.170.23.128			        128 - 253                           254	                        255.255.255.224
 
 193.170.20.0 /24
 193.170.00010100.00000000 /27
-		00.1		/27	In dezimal umgerechnet ergibt die Netzadresse
-		01.0		/27
-		01.1		/27
-		10.0		/27
-		10.1		/27
-		11.0		/27
-		11.1		/27
+              00.1		/27	In dezimal umgerechnet ergibt die Netzadresse
+              01.0		/27
+              01.1		/27
+              10.0		/27
+              10.1		/27
+              11.0		/27
+              11.1		/27
 
 
 ## Übung 3
@@ -48,10 +48,15 @@ Netzwerkadresse,              nutzbare Hosts,                    Broadcastadress
 Erstelle eine Tabelle mit folgenden Angaben:
 Netzwerkadresse,               nutzbare Hosts,                    Broadcastadresse,              Subnetzmaske.
 
+172.28.40.0                    1-14                               172.28.40.15                    255.255.255.224  /27 32 IPs
+172.28.40.16                   17-30                              172.28.40.31                    255.255.255.224  /27 32 IPs
+
 ## Übung 4
 
 Wie lautet die Subnetzmaske bei der Netzadresse: 17.0.0.0 mit 10 verwendbaren Subnetzen, sowie mit mindestens 12 Hosts je Subnetz?
 Antwort in Sätzen, wie sie zu dieser Lösung kommen; und erstelle eine Tabelle:
+
+
 
 ## Übung 5
 
