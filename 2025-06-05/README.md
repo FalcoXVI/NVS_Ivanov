@@ -1,0 +1,1 @@
+FizzBuzz Programmgeschrieben und per Screenshot abgegeben
